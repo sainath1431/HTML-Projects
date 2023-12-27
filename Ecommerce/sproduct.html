@@ -41,6 +41,139 @@
       </div>
     </section>
 
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="img/products/f1.jpg" alt="" width="100%" id="MainImg" />
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="img/products/f1.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f2.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f3.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="img/products/f4.jpg"
+              width="100%"
+              class="small-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="single-pro-details">
+        <h6>Home / T-Shirt</h6>
+        <h4>Men's Fashion T Shirt</h4>
+        <h2>$130.00</h2>
+        <select>
+          <option value="">Select Size</option>
+          <option value="">XL</option>
+          <option value="">XXL</option>
+          <option value="">Small</option>
+          <option value="">Large</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="normal">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span
+          >Our classic button down Oxfords are cut slim with a tailored fit
+          through the body and sleeves. Unlined collars and cuffs and our
+          pre-washing process creates a softer look and helps to minimize
+          additional shrinkage.
+        </span>
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Featured Products</h2>
+      <p>Summer Collection New Morden Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/products/n1.jpg" alt="first prouct" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="fal fa-shopping-cart cart"></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n2.jpg" alt="first prouct" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="fal fa-shopping-cart cart"></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n3.jpg" alt="first prouct" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="fal fa-shopping-cart cart"></a>
+        </div>
+        <div class="pro">
+          <img src="img/products/n4.jpg" alt="first prouct" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#" class="fal fa-shopping-cart cart"></a>
+        </div>
+      </div>
+    </section>
+
     <!-- Hero section -->
     <section id="page-header">
       <h2>#Stayhome</h2>
@@ -383,6 +516,28 @@
         <p>© 2021, Tech2 etc - HTML CSS Ecommerce Template</p>
       </div>
     </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+
     <script src="script.js"></script>
   </body>
 </html>
